@@ -1,0 +1,27 @@
+<div>
+    <h3>Yummy Food Item List </h3>
+           
+</div>
+
+<div>
+    <table>
+        <tr>
+            <th>id</th>
+            <th>name</th>
+            <th>price</th>
+            <th>qty</th>
+            <th>category</th>
+            <th>image</th>
+        </tr>
+        <tr *ngFor="let FoodOnline of foodOnlineLists">
+            <td>{{FoodOnline.id}}</td>
+            <td>{{FoodOnline.name}}</td>
+            <td>{{FoodOnline.price}}</td>
+            <td>{{FoodOnline.qty}}</td>
+            <td>{{FoodOnline.catgory}}</td>
+            <td>{{FoodOnline.image}}</td>
+    
+        </tr>
+
+    </table>
+</div>

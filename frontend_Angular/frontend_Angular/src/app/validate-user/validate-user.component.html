@@ -1,0 +1,15 @@
+<div class="add-user" style="text-align: center;">
+    <h3>Login Here </h3>
+    <table style="border: none; text-align: center; margin: 0 auto;">
+        <tr>
+            Enter User name:  <td class="add-td"><input type="text" [(ngModel)]="uname" placeholder="Enter User Name"></td>
+        </tr>
+        <tr>
+            Enter Password:  <td class="add-td"><input type="password" [(ngModel)]="pwd" placeholder="Enter Password"></td>
+        </tr>
+       
+       
+    </table>
+    <button (click)="validateUser()">Login</button>
+
+</div>

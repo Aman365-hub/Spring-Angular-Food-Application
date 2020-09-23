@@ -1,0 +1,27 @@
+<div align="center">
+    <h4 style="text-decoration: underline;">Add Food</h4>
+    <table border="1px">
+        <tr>
+            <td>Name</td>
+            <td><input type="text" [(ngModel)]="FoodOnline.name"></td>
+        </tr>
+        <tr>
+            <td>Price</td>
+            <td><input type="number" [(ngModel)]="FoodOnline.price"></td>
+        </tr>
+        <tr>
+            <td>Quantity</td>
+            <td><input type="number" [(ngModel)]="FoodOnline.qty"></td>
+        </tr>
+        <tr>
+            <td>Category</td>
+            <td><input type="text" [(ngModel)]="FoodOnline.category"></td>
+        </tr>
+        <tr>
+            <td>Image</td>
+            <td><input type="text" [(ngModel)]="FoodOnline.image"></td>
+        </tr>
+    </table>
+       
+         <button (click)="addFoodOnline()">Add Food</button>
+</div>

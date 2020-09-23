@@ -1,0 +1,25 @@
+<div class="add-user" style="text-align: center;">
+    <h3>Signup Here </h3>
+    <table style="border: none; text-align: center; margin: 0 auto;">
+        <tr>
+            Enter First name:<td class="add-td"><input type="text" [(ngModel)]="user.fname" placeholder="Enter First Name"></td>
+        </tr>
+        <tr>
+            Enter email id:<td class="add-td"><input type="email" [(ngModel)]="user.mailId" placeholder="Enter mail Id"></td>
+        </tr>
+        <tr>
+            Enter Last name:<td class="add-td"><input type="text" [(ngModel)]="user.lname" placeholder="Enter Last Name"></td>
+        </tr>
+       
+        <tr>
+            Enter User name:  <td class="add-td"><input type="text" [(ngModel)]="user.uname" placeholder="Enter User Name"></td>
+        </tr>
+        <tr>
+            Enter Password:  <td class="add-td"><input type="password" [(ngModel)]="user.pwd" placeholder="Enter Password"></td>
+        </tr>
+       
+       
+    </table>
+    <button (click)="addUser()">Create</button>
+
+</div>
